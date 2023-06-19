@@ -1,0 +1,157 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: relative;
+    background:url(bg.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.icon {
+
+    position: absolute;
+    top: 10px;
+    left: 14px;
+}
+
+
+.logo {
+
+    color: gray;
+    font-family: Arial;
+    font-size: 40px;
+  
+    
+}
+
+.nav {
+
+    width: 100vw;
+}
+.nav ul {
+    height: 60px;
+    list-style: none;
+    margin-left: 1000px;
+    float: left;
+}
+
+.nav ul li {
+    
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+   
+}
+
+.nav ul li a:hover{
+
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    border-style: inset;
+    border-radius: 30px;
+    padding: 5px;
+
+    
+}
+.search {
+
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+ .search input {
+
+    float: left;
+    height: 22px;
+    width: 200px;
+    background: transparent;
+    color: aliceblue;
+    border: 1px solid yellow;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 4px;
+    font-size: 16px;
+}
+
+
+.search input:focus {
+
+    outline:none;
+}
+
+.search button {
+
+    font-family: sans-serif;
+    height: 32px;
+    font-size: 16px;
+    width: 80px;
+    border: none;
+    background-color: gold;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.search button:hover {
+
+    background-color: white;
+}
+
+.content {
+
+    color: white;
+    clear: both;
+    width: 60vw;
+    padding-top: 160px;
+    padding-left: 40px;
+    padding-right: 40px;
+    float: left;
+    
+
+}
+.content h1 {
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: rgb(4, 56, 102);
+    
+    
+}
+.content h1 span {
+
+    color: rgb(244, 244, 11);
+    font-size: 75px;
+
+    
+}
+.content p {
+    font-family: Arial Rounded MT Bold;
+    font-size: 24px;
+    padding: 5px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    color: white;
+    background:linear-gradient(to top,rgb(0,0,0,0.8),rgb(0,0,0,0.1));
+    
+}
+
+
